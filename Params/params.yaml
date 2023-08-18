@@ -1,0 +1,16 @@
+# Noise params
+alpha : 100
+mu_dark : 0
+sigma_dark : 1
+
+# Image params
+n : 64
+img_name : "shepp-logan"
+
+# Temporal params
+nb_periods : 2
+T_period : 1000  # (ms)
+
+# Deformation choice
+deformation : 0
+deformation_noisy : 0.5 # only used when params_noise == True
